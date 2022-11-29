@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+@media (max-width: 1150px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Rangs {
+        display: none;
+    }
+
+    img {
+        width: 25rem;
+    }
+
+    div .Inditif label {
+        display: block;
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+    
+    div .Inditif input {
+        display: inline;
+        font-size: small;
+        margin: 0px 100% 0px 15px;
+        margin-bottom: 15px;
+        width: 22%;
+    }
+
+    .Links {
+        padding-bottom: 15%;
+    }
+
+    a {
+        display: block;
+    }
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    margin: auto;
+}
+
+.container {
+    background: #000;
+    padding: 100px;
+    margin: auto;
+}
+
+.avatar img {
+    max-width: 500px;
+    margin: 5px auto;
+    display: block;
+}
+
+.avatar img:hover {
+    max-width: 800px;
+    margin: 5px auto;
+    transition: all 1s;
+    display: block;
+    border: 2px solid #000;
+    border-radius: 15%;
+}
+
+div .page {
+    background: #1f1f1f;
+    padding: 25px;
+    margin: 25px;
+}
+
+body {
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    word-spacing: 8px;
+    color: #f3f3f3;
+    background-color: #000000;
+}
+
+div .footer {
+    width: 100%;
+}
+
+div .Links {
+    max-width: 850px;
+    margin: auto;
+    margin-top: 5%;
+    height: 100px;
+}
+
+footer {
+    background: #272727;
+}
+
+form {
+    background: #272727;
+}
+
+td.personel {
+    font-weight: bold;
+    color: #0058bd;
+    background: #272727;
+    text-align: center;
+}
+
+.personel ul {
+    font-weight: bold;
+    color: #0058bd;
+}
+
+th,
+td {
+    border-radius: 5px;
+    background: #272727;
+    text-align: center;
+    padding: 5px;
+}
+
+.personel {
+    border: 5px solid #272727;
+    border-radius: 5px;
+    background: #1b1b1b;
+}
+
+.personel li {
+    margin-left: 25px;
+}
+
+.Rangs {
+    border: solid #272727;
+    background: #1b1b1b;
+}
+
+.logo img {
+    max-width: 750px;
+    margin: 5px auto;
+    display: block;
+}
+
+.logo img:hover {
+    max-width: 1000px;
+    margin: 5px auto;
+    display: block;
+    transition: all .5s;
+}
+
+
+#director {
+    font-size: 40px;
+}
+
+div.documentation p,
+h3 {
+    color: #4b4b4b;
+}
+
+div.documentation h3 {
+    font-style: italic;
+}
+
+div.documentation div,
+form,
+footer {
+    background: #1b1b1b;
+}
+
+h3 {
+    border-left: 6px solid #303030;
+    background: #252525;
+    padding-left: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.btn {
+    color: #fff;
+    background: #000;
+    border: none;
+    padding: 10px 25px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    transition: all .3s;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 25px;
+    border: 1px solid #000;
+    background: #111111;
+    padding: 10px;
+
+}
+
+.VK:hover {
+    transition: all .5s;
+    color: #0058bd;
+    opacity: 0.75;
+}
+
+.DISCORD:hover {
+    transition: all .5s;
+    color: #605dec;
+    opacity: 0.75;
+}
+
+.YouTube:hover {
+    transition: all .5s;
+    color: #ff0000;
+    opacity: 0.75;
+}
+
+.table td:nth-child(even) {
+    background: #111111;
+    color: #fff;
+}
+
+tr td:nth-child(even):hover, td:nth-child(odd):hover {
+    background: #000;
+    color: #fff;
+    border: 5px solid #000;
+}
+
+thead th:hover {
+    background: #000;
+    color: #fff;
+}
+
+div .Inditif label {
+    display: inline-block;
+    margin-left: 10%;
+}
+
+div .Inditif input {
+    display: inline-block;
+    background: rgba(00, 00, 00, 0);
+    padding: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    border-bottom: 2px solid #777;
+    width: 22%;
+}
+
+div .messageMe {
+    display: inline;
+    margin: 5px auto;
+}
+
+textarea {
+    display: inline-block;
+    background: rgba(00, 00, 00, 0);
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #777;
+    width: 100%;
+}
