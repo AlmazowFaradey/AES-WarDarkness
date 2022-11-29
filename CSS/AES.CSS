@@ -37,13 +37,57 @@
     }
 
     .Links {
-        padding-bottom: 15%;
+        padding-bottom: 50%;
     }
 
     a {
         display: block;
     }
 
+    @media (max-width: 650px) {
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-size: small;
+        }
+    
+        h1 {
+            text-align: center;
+            font-size: 15px;
+            margin-bottom: 7.5px;
+        }
+    
+        .Rangs {
+            display: none;
+        }
+    
+        img {
+            width: 12.5rem;
+        }
+    
+        div .Inditif label {
+            display: block;
+            margin-left: 5%;
+            margin-top: 7.5px;
+        }
+        
+        div .Inditif input {
+            display: inline;
+            font-size: small;
+            margin: 0px 50% 0px 7.5px;
+            margin-bottom: 7.5px;
+            width: 11%;
+        }
+    
+        .Links {
+            padding-bottom: 25%;
+        }
+    
+        a {
+            display: block;
+        }
+    }
 }
 
 * {
