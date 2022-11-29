@@ -1,95 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
 
-@media (max-width: 1150px) {
-
-    * {
-        padding: 0;
-        margin: 0;
-        font-size: small;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .Rangs {
-        display: none;
-    }
-
-    img {
-        width: 25rem;
-    }
-
-    div .Inditif label {
-        display: block;
-        margin-left: 10%;
-        margin-top: 15px;
-    }
-    
-    div .Inditif input {
-        display: inline;
-        font-size: small;
-        margin: 0px 100% 0px 15px;
-        margin-bottom: 15px;
-        width: 22%;
-    }
-
-    .Links {
-        padding-bottom: 50%;
-    }
-
-    a {
-        display: block;
-    }
-
-    @media (max-width: 650px) {
-
-        * {
-            padding: 0;
-            margin: 0;
-            font-size: small;
-        }
-    
-        h1 {
-            text-align: center;
-            font-size: 15px;
-            margin-bottom: 7.5px;
-        }
-    
-        .Rangs {
-            display: none;
-        }
-    
-        img {
-            width: 12.5rem;
-        }
-    
-        div .Inditif label {
-            display: block;
-            margin-left: 5%;
-            margin-top: 7.5px;
-        }
-        
-        div .Inditif input {
-            display: inline;
-            font-size: small;
-            margin: 0px 50% 0px 7.5px;
-            margin-bottom: 7.5px;
-            width: 11%;
-        }
-    
-        .Links {
-            padding-bottom: 25%;
-        }
-    
-        a {
-            display: block;
-        }
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -210,8 +120,7 @@ td {
     font-size: 40px;
 }
 
-div.documentation
-h3 {
+div.documentation h3 {
     color: #ffffff;
 }
 
@@ -279,7 +188,8 @@ a {
     color: #fff;
 }
 
-tr td:nth-child(even):hover, td:nth-child(odd):hover {
+tr td:nth-child(even):hover,
+td:nth-child(odd):hover {
     background: #000;
     color: #fff;
     border: 5px solid #000;
@@ -321,4 +231,98 @@ textarea {
     border: none;
     border-bottom: 2px solid #777;
     width: 100%;
+}
+
+@media (max-width: 1150px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Rangs {
+        display: none;
+    }
+
+    img {
+        width: 25rem;
+    }
+
+    div .Inditif label {
+        display: block;
+        margin-left: 10%;
+        margin-top: 15px;
+    }
+
+    div .Inditif input {
+        display: inline;
+        font-size: small;
+        margin: 0px 100% 0px 15px;
+        margin-bottom: 15px;
+        width: 22%;
+    }
+
+    .Links {
+        padding-bottom: 50%;
+    }
+
+    a {
+        display: block;
+    }
+}
+
+@media (max-width: 650px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: small;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 7.5px;
+    }
+
+    .Rangs {
+        display: none;
+    }
+
+    img {
+        width: 16rem;
+    }
+
+    div .Inditif label {
+        display: block;
+        margin-left: 5%;
+        margin-top: 7.5px;
+    }
+
+    div .Inditif input {
+        display: inline;
+        font-size: small;
+        margin: 0px 100% 0px 7.5px;
+        margin-bottom: 7.5px;
+        width: 11%;
+    }
+
+    .Links {
+        padding-bottom: 50%;
+    }
+
+    a {
+        display: block;
+    }
+
+    .container {
+        padding: 0;
+    }
 }
